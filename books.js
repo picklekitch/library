@@ -1,6 +1,6 @@
 var booksModule = (function(){
   return{
-    createBook : function(title, author, bookNumber){
+    createBook : function(title, author, bookNumber){ //create a new book! new books/shelves/libraries will be entered in main.js
       return booksModule[bookNumber] = {
         'title' : title,
         'author' : author,
